@@ -1,0 +1,142 @@
+
+
+@media only screen and (max-width:768px){
+    body{
+      border-radius: 15px;
+      font-size: 16px;
+    }
+    #nav-bar{
+      font-size: 14px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+   
+   }
+   body {
+       
+       font-family: 'halvetica', sans-serif;
+       font-size:15px;
+       font-weight: 200px;
+       text-align: center;
+       background-color: #fff;
+       
+     }
+     #header{
+           width: 100%;
+           height: 100px;
+           background-color: #F15D00;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           position: fixed;
+           top:0;
+       }
+       #header-img{
+           width: max(100px.18vw);
+           aspect-ratio: 15/4;
+           padding: 0.4rem;
+       }
+       h1{
+         color: #fff;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-size: min(5vw, 1.5em);
+         text-align: center;
+       }
+       #nav-bar{
+           width: 50%;
+           max-width: 300px;
+           height: 50px;
+       }
+       nav > ul{
+           display: flex;
+           justify-content: space-evenly;
+           flex-wrap: wrap;
+           align-items: center;
+           padding-inline-start: 0;
+           margin-block: 0;
+           height: 100%;
+       }
+       nav > ul > li{
+           color: black;
+           margin: 0.2rem;
+           padding: 0.2rem;
+           display: block;
+       }
+       nav > ul > li:hover{
+           color: white;
+           background-color: black;
+           cursor: scroll;
+       }
+     li
+     {
+         list-style:none;
+     }
+   
+     li>a {
+       color: #fff;
+       text-decoration:none;
+     }
+     
+     input,button{
+       margin: 15px;
+       padding: 10px;
+       background-color: #fff;
+       background-clip: padding-box;
+       border: 1px solid #ced4da;
+       border-radius: 0.25rem;
+       
+     }
+     
+     .btn, footer{
+       background-color:  #F15D00;
+       padding: 15px;
+       margin:10px;
+     }
+     #product{
+       display:flex;
+       margin: 5px;
+       padding: 0px;
+     }
+     #product > div{
+       border:solid 1px #ced4da;
+       flex: 1;
+     }
+     
+     #email{
+       width:20%;
+       padding: 12px;
+       margin-top: 10px;
+      
+     }
+     
+    #how-it-looks{
+      margin:20px 0 20px 0;
+    }
+    #menus{
+         font-size: 15px;
+               list-style-position:inside;
+               max-width:550px;
+               margin:0 auto 20px auto;
+               text-align:left;
+               line-height:1.2;
+    } 
+   
+    #form{
+          margin-top: 8rem;
+                   
+   }
+   footer{
+     display: flex;
+     justify-content: center;
+   }
+   footer, footer a{
+     color: #fff;
+   }
+   address{
+     text-align: center;
+     padding: 0.3rem;
+   }
+   i{
+     margin: 2rem;
+   }
